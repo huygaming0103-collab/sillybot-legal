@@ -28,10 +28,10 @@ export default function Home() {
 
           <FadeIn>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link href="/tos" className="w-full sm:w-auto px-8 py-4 bg-cold-bg text-white font-bold rounded-2xl hover:bg-cold-bg/90 transition-all hover:scale-105 hover:-translate-y-1 shadow-lg shadow-cold-bg/20">
+              <Link href="/Sillybot-tos" className="w-full sm:w-auto px-8 py-4 bg-cold-bg text-white font-bold rounded-2xl hover:bg-cold-bg/90 transition-all hover:scale-105 hover:-translate-y-1 shadow-lg shadow-cold-bg/20">
                 Terms of Service
               </Link>
-              <Link href="/privacy" className="w-full sm:w-auto px-8 py-4 bg-white text-gray-900 font-bold rounded-2xl hover:bg-gray-50 transition-all border border-gray-200 hover:scale-105 hover:-translate-y-1 shadow-lg shadow-black/5">
+              <Link href="/Sillybot-pp" className="w-full sm:w-auto px-8 py-4 bg-white text-gray-900 font-bold rounded-2xl hover:bg-gray-50 transition-all border border-gray-200 hover:scale-105 hover:-translate-y-1 shadow-lg shadow-black/5">
                 Privacy Policy
               </Link>
             </div>

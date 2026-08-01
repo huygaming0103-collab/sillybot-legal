@@ -12,10 +12,10 @@ export function NavBar() {
           </Link>
         </div>
         <div className="flex items-center gap-8">
-          <Link href="/tos" className="text-sm font-semibold text-gray-600 hover:text-primary transition-colors">
+          <Link href="/Sillybot-tos" className="text-sm font-semibold text-gray-600 hover:text-primary transition-colors">
             Terms of Service
           </Link>
-          <Link href="/privacy" className="text-sm font-semibold text-gray-600 hover:text-primary transition-colors">
+          <Link href="/Sillybot-pp" className="text-sm font-semibold text-gray-600 hover:text-primary transition-colors">
             Privacy Policy
           </Link>
         </div>
