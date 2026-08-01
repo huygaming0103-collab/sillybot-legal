@@ -6,8 +6,9 @@ export default function Tos() {
       <section className="w-full py-24 px-6 bg-cold-bg text-cold-fg">
         <div className="max-w-3xl mx-auto text-center">
           <FadeIn>
-            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">Terms of Service</h1>
-            <p className="text-xl text-cold-fg/80">Last updated: {new Date().toLocaleDateString()}</p>
+            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">Điều Khoản Dịch Vụ</h1>
+            <p className="text-2xl font-semibold text-cold-fg/70 mb-2">Terms of Service</p>
+            <p className="text-lg text-cold-fg/60">Cập nhật lần cuối / Last updated: {new Date().toLocaleDateString()}</p>
           </FadeIn>
         </div>
       </section>
@@ -22,8 +23,11 @@ export default function Tos() {
         <div className="max-w-3xl mx-auto space-y-16">
           <FadeIn>
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tight">1. Acceptance of Terms</h2>
+              <h2 className="text-3xl font-bold tracking-tight">1. Chấp Nhận Điều Khoản</h2>
               <p className="text-lg leading-relaxed text-gray-700">
+                Bằng cách mời và sử dụng Silly Bot trong máy chủ Discord của bạn, bạn đồng ý với các Điều Khoản Dịch Vụ này. Nếu bạn không đồng ý, bạn phải xóa bot khỏi máy chủ của mình ngay lập tức.
+              </p>
+              <p className="text-base leading-relaxed text-gray-500 border-l-2 border-gray-300 pl-4 italic">
                 By inviting and using Silly Bot in your Discord server, you agree to these Terms of Service. If you do not agree, you must remove the bot from your server immediately.
               </p>
             </div>
@@ -31,8 +35,11 @@ export default function Tos() {
 
           <FadeIn>
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tight">2. Bot Usage</h2>
+              <h2 className="text-3xl font-bold tracking-tight">2. Sử Dụng Bot</h2>
               <p className="text-lg leading-relaxed text-gray-700">
+                Silly Bot (tiền tố: H) được thiết kế như một công cụ thay đổi phông chữ và kiểm tra bản quyền. Bạn đồng ý sử dụng các tính năng này một cách có trách nhiệm và tuân thủ Điều Khoản Dịch Vụ dành cho nhà phát triển và Nguyên tắc Cộng đồng của Discord.
+              </p>
+              <p className="text-base leading-relaxed text-gray-500 border-l-2 border-gray-300 pl-4 italic">
                 Silly Bot (prefix: H) is designed as a tool for font changing and copyright checking. You agree to use these features responsibly and in accordance with Discord's Developer Terms of Service and Community Guidelines.
               </p>
             </div>
@@ -40,23 +47,27 @@ export default function Tos() {
 
           <FadeIn>
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tight">3. Prohibited Uses</h2>
-              <p className="text-lg leading-relaxed text-gray-700">
-                You may not use Silly Bot to:
-              </p>
+              <h2 className="text-3xl font-bold tracking-tight">3. Các Hành Vi Bị Cấm</h2>
+              <p className="text-lg leading-relaxed text-gray-700">Bạn không được sử dụng Silly Bot để:</p>
               <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700">
-                <li>Spam channels, users, or external services.</li>
-                <li>Distribute abusive, hateful, or harassing content.</li>
-                <li>Intentionally bypass, abuse, or overload the copyright checking mechanisms.</li>
-                <li>Engage in any activity that disrupts the bot's availability for others.</li>
+                <li>Spam các kênh, người dùng hoặc dịch vụ bên ngoài.</li>
+                <li>Phân phối nội dung lạm dụng, thù địch hoặc quấy rối.</li>
+                <li>Cố tình vượt qua, lạm dụng hoặc làm quá tải cơ chế kiểm tra bản quyền.</li>
+                <li>Tham gia vào bất kỳ hoạt động nào gây gián đoạn sự hoạt động của bot đối với người khác.</li>
               </ul>
+              <p className="text-base leading-relaxed text-gray-500 border-l-2 border-gray-300 pl-4 italic">
+                You may not use Silly Bot to: spam channels, users, or external services; distribute abusive, hateful, or harassing content; intentionally bypass, abuse, or overload the copyright checking mechanisms; or engage in any activity that disrupts the bot's availability for others.
+              </p>
             </div>
           </FadeIn>
 
           <FadeIn>
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tight">4. Disclaimer of Warranties</h2>
+              <h2 className="text-3xl font-bold tracking-tight">4. Tuyên Bố Miễn Trừ Bảo Đảm</h2>
               <p className="text-lg leading-relaxed text-gray-700">
+                Silly Bot được cung cấp &quot;nguyên trạng&quot; mà không có bất kỳ bảo đảm nào, dù rõ ràng hay ngụ ý. Chúng tôi không đảm bảo dịch vụ không bị gián đoạn, phát hiện bản quyền hoàn hảo hoặc khả năng tương thích hiển thị phông chữ tuyệt đối trên mọi thiết bị.
+              </p>
+              <p className="text-base leading-relaxed text-gray-500 border-l-2 border-gray-300 pl-4 italic">
                 Silly Bot is provided &quot;as is&quot; without any warranties, express or implied. We do not guarantee uninterrupted service, flawless copyright detection, or absolute font rendering compatibility across all devices.
               </p>
             </div>
@@ -74,8 +85,11 @@ export default function Tos() {
         <div className="max-w-3xl mx-auto space-y-16">
           <FadeIn>
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tight">5. Limitation of Liability</h2>
+              <h2 className="text-3xl font-bold tracking-tight">5. Giới Hạn Trách Nhiệm</h2>
               <p className="text-lg leading-relaxed text-cold-fg/80">
+                Trong mọi trường hợp, các nhà phát triển của Silly Bot sẽ không chịu trách nhiệm về bất kỳ thiệt hại trực tiếp, gián tiếp, ngẫu nhiên hoặc do hậu quả nào phát sinh từ việc sử dụng hoặc không thể sử dụng bot, bao gồm nhưng không giới hạn ở lệnh cấm máy chủ, xóa tin nhắn hoặc các khiếu nại bản quyền được cho là.
+              </p>
+              <p className="text-base leading-relaxed text-cold-fg/50 border-l-2 border-cold-fg/20 pl-4 italic">
                 In no event shall the developers of Silly Bot be liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use the bot, including but not limited to server bans, message deletions, or perceived copyright strikes.
               </p>
             </div>
@@ -83,8 +97,11 @@ export default function Tos() {
 
           <FadeIn>
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tight">6. Changes to Terms</h2>
+              <h2 className="text-3xl font-bold tracking-tight">6. Thay Đổi Điều Khoản</h2>
               <p className="text-lg leading-relaxed text-cold-fg/80">
+                Chúng tôi có quyền cập nhật các Điều Khoản này bất kỳ lúc nào. Việc tiếp tục sử dụng Silly Bot sau khi có sửa đổi đồng nghĩa với việc bạn chấp nhận các điều khoản mới.
+              </p>
+              <p className="text-base leading-relaxed text-cold-fg/50 border-l-2 border-cold-fg/20 pl-4 italic">
                 We reserve the right to update these Terms at any time. Continued use of Silly Bot after modifications constitutes your acceptance of the new terms.
               </p>
             </div>
@@ -92,8 +109,11 @@ export default function Tos() {
 
           <FadeIn>
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tight">7. Contact</h2>
+              <h2 className="text-3xl font-bold tracking-tight">7. Liên Hệ</h2>
               <p className="text-lg leading-relaxed text-cold-fg/80">
+                Nếu bạn có thắc mắc về các Điều Khoản này, vui lòng liên hệ với nhà phát triển qua Discord hoặc máy chủ hỗ trợ chính thức của chúng tôi.
+              </p>
+              <p className="text-base leading-relaxed text-cold-fg/50 border-l-2 border-cold-fg/20 pl-4 italic">
                 If you have questions about these Terms, please reach out to the developer via Discord or our official support server.
               </p>
             </div>
