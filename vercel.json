@@ -1,0 +1,8 @@
+{
+  "buildCommand": "pnpm --filter @workspace/bot-legal run build",
+  "outputDirectory": "artifacts/bot-legal/dist/public",
+  "installCommand": "pnpm install",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

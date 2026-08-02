@@ -3,9 +3,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 
-const rawPort = process.env.PORT || '5173';
-const port = Number(rawPort);
-
+const port = Number(process.env.PORT || '5173');
 const basePath = process.env.BASE_PATH || '/';
 
 export default defineConfig({
@@ -13,16 +11,11 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    ...(process.env.NODE_ENV !== 'production' &&
-    process.env.REPL_ID !== undefined
+    ...(process.env.NODE_ENV !== 'production' && process.env.REPL_ID !== undefined
       ? [
-          await import('@replit/vite-plugin-runtime-error-modal').then((m) =>
-            m.default(),
-          ),
+          await import('@replit/vite-plugin-runtime-error-modal').then((m) => m.default()),
           await import('@replit/vite-plugin-cartographer').then((m) =>
-            m.cartographer({
-              root: path.resolve(import.meta.dirname, '..'),
-            }),
+            m.cartographer({ root: path.resolve(import.meta.dirname, '..') }),
           ),
         ]
       : []),
@@ -30,12 +23,6 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(import.meta.dirname, 'src'),
-      '@assets': path.resolve(
-        import.meta.dirname,
-        '..',
-        '..',
-        'attached_assets',
-      ),
     },
     dedupe: ['react', 'react-dom'],
   },
@@ -49,9 +36,7 @@ export default defineConfig({
     strictPort: true,
     host: '0.0.0.0',
     allowedHosts: true,
-    fs: {
-      strict: true,
-    },
+    fs: { strict: true },
   },
   preview: {
     port,
