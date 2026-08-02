@@ -1,0 +1,8 @@
+{
+  "installCommand": "cd artifacts/bot-legal && npm install",
+  "buildCommand": "cd artifacts/bot-legal && npm run build",
+  "outputDirectory": "artifacts/bot-legal/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
