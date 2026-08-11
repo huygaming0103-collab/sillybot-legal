@@ -14,8 +14,8 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/Sillybot-tos" component={Tos} />
-      <Route path="/Sillybot-pp" component={Privacy} />
+      <Route path="/HDGBot-tos" component={Tos} />
+      <Route path="/HDGBot-pp" component={Privacy} />
       <Route component={NotFound} />
     </Switch>
   );
