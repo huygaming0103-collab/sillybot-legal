@@ -20,7 +20,7 @@ export function Footer() {
         </div>
       </div>
       <div className="max-w-6xl mx-auto px-6 mt-12 text-center text-sm text-cold-fg/40">
-        &copy; {new Date().getFullYear()} Silly Bot. All rights reserved.
+        &copy; {new Date().getFullYear()} HDGBot. All rights reserved.
       </div>
     </footer>
   );
