@@ -40,7 +40,7 @@ export default function Tos() {
                 HDGBot (tiền tố: H) được thiết kế để phục vụ mọi người và công cụ ấy luôn luôn tuân thủ điều khoản sử dụng và chính sách bảo mật của discord.
               </p>
               <p className="text-base leading-relaxed text-gray-500 border-l-2 border-gray-300 pl-4 italic">
-                Silly Bot (prefix: H) is designed as a tool for everyone and it always follow Discord's Developer Terms of Service and Community Guidelines.
+                HDGBot (prefix: H) is designed as a tool for everyone and it always follow Discord's Developer Terms of Service and Community Guidelines.
               </p>
             </div>
           </FadeIn>
