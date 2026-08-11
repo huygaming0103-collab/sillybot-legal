@@ -28,7 +28,7 @@ export default function Tos() {
                 Bằng cách mời và sử dụng HDGBot trong máy chủ Discord của bạn, bạn đồng ý với các Điều Khoản Dịch Vụ này. Nếu bạn không đồng ý, bạn bắt buộc phải đồng ý
               </p>
               <p className="text-base leading-relaxed text-gray-500 border-l-2 border-gray-300 pl-4 italic">
-                By inviting and using Silly Bot in your Discord server, you agree to these Terms of Service. If you do not agree, you must agree
+                By inviting and using HDGBot in your Discord server, you agree to these Terms of Service. If you do not agree, you must agree
               </p>
             </div>
           </FadeIn>
