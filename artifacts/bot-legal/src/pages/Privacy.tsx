@@ -25,7 +25,7 @@ export default function Privacy() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tight">1. Thông Tin Chúng Tôi Thu Thập</h2>
               <p className="text-lg leading-relaxed text-cold-fg/80">
-                Để cung cấp dịch vụ, Silly Bot thu thập dữ liệu tối thiểu khi bạn tương tác với nó, bao gồm:
+                Để cung cấp dịch vụ, HDGBot thu thập dữ liệu tối thiểu khi bạn tương tác với nó, bao gồm:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-lg text-cold-fg/80">
                 <li>ID người dùng Discord</li>
