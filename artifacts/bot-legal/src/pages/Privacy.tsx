@@ -36,7 +36,7 @@ export default function Privacy() {
                 Chúng tôi không ghi lại nội dung tin nhắn lâu dài, cũng không lưu trữ thông tin nhận dạng cá nhân ngoài các ID cơ bản cần thiết cho chức năng Discord.
               </p>
               <p className="text-base leading-relaxed text-cold-fg/50 border-l-2 border-cold-fg/20 pl-4 italic">
-                To provide our services, Silly Bot collects minimal data: Discord User IDs, Discord Server (Guild) IDs, and command usage data. We do not log message contents permanently, nor do we store personally identifiable information outside of the basic IDs required for Discord functionality.
+                To provide our services, HDGBot collects minimal data: Discord User IDs, Discord Server (Guild) IDs, and command usage data. We do not log message contents permanently, nor do we store personally identifiable information outside of the basic IDs required for Discord functionality.
               </p>
             </div>
           </FadeIn>
