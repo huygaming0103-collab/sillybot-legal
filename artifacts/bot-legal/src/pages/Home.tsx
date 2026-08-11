@@ -16,13 +16,13 @@ export default function Home() {
           
           <FadeIn>
             <h1 className="text-6xl md:text-8xl font-extrabold tracking-tight mb-8 text-gray-900 leading-[1.1]">
-              Silly Bot
+              HDGBot
             </h1>
           </FadeIn>
 
           <FadeIn>
             <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-              The friendly Discord bot that handles your fonts and copyright checks with care.
+              Bot Discord Thập Cẩm
             </p>
           </FadeIn>
 
@@ -31,7 +31,7 @@ export default function Home() {
               <Link href="/Sillybot-tos" className="w-full sm:w-auto px-8 py-4 bg-cold-bg text-white font-bold rounded-2xl hover:bg-cold-bg/90 transition-all hover:scale-105 hover:-translate-y-1 shadow-lg shadow-cold-bg/20">
                 Terms of Service
               </Link>
-              <Link href="/Sillybot-pp" className="w-full sm:w-auto px-8 py-4 bg-white text-gray-900 font-bold rounded-2xl hover:bg-gray-50 transition-all border border-gray-200 hover:scale-105 hover:-translate-y-1 shadow-lg shadow-black/5">
+              <Link href="/HDGBot-pp" className="w-full sm:w-auto px-8 py-4 bg-white text-gray-900 font-bold rounded-2xl hover:bg-gray-50 transition-all border border-gray-200 hover:scale-105 hover:-translate-y-1 shadow-lg shadow-black/5">
                 Privacy Policy
               </Link>
             </div>
@@ -60,7 +60,7 @@ export default function Home() {
             <FadeIn>
               <div className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-sm">
                 <h3 className="text-xl font-bold mb-3">Clear Terms</h3>
-                <p className="text-cold-fg/70">No hidden clauses. We outline exactly what Silly Bot does and what we expect from our users.</p>
+                <p className="text-cold-fg/70">No hidden clauses. We outline exactly what HDGBot does and what we expect from our users.</p>
               </div>
             </FadeIn>
             <FadeIn>
