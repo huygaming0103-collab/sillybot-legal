@@ -8,7 +8,7 @@ export function Footer() {
           <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center font-bold text-lg">
             H
           </div>
-          <span className="font-semibold text-lg tracking-tight">Silly Bot</span>
+          <span className="font-semibold text-lg tracking-tight">HDGBot</span>
         </div>
         <div className="flex items-center gap-8">
           <Link href="/Sillybot-tos" className="text-sm text-cold-fg/70 hover:text-white transition-colors">
