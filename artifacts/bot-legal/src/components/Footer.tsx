@@ -11,10 +11,10 @@ export function Footer() {
           <span className="font-semibold text-lg tracking-tight">HDGBot</span>
         </div>
         <div className="flex items-center gap-8">
-          <Link href="/Sillybot-tos" className="text-sm text-cold-fg/70 hover:text-white transition-colors">
+          <Link href="/HDGBot-tos" className="text-sm text-cold-fg/70 hover:text-white transition-colors">
             Terms of Service
           </Link>
-          <Link href="/Sillybot-pp" className="text-sm text-cold-fg/70 hover:text-white transition-colors">
+          <Link href="/HDGBot-pp" className="text-sm text-cold-fg/70 hover:text-white transition-colors">
             Privacy Policy
           </Link>
         </div>
