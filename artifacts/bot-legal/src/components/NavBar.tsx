@@ -7,15 +7,15 @@ export function NavBar() {
         <div className="flex items-center gap-3">
           <Link href="/" className="flex items-center gap-2 group">
             <span className="font-bold text-xl tracking-tight text-gray-900 group-hover:text-primary transition-colors">
-              Silly Bot
+              HDGBot
             </span>
           </Link>
         </div>
         <div className="flex items-center gap-8">
-          <Link href="/Sillybot-tos" className="text-sm font-semibold text-gray-600 hover:text-primary transition-colors">
+          <Link href="/HDGBot-tos" className="text-sm font-semibold text-gray-600 hover:text-primary transition-colors">
             Terms of Service
           </Link>
-          <Link href="/Sillybot-pp" className="text-sm font-semibold text-gray-600 hover:text-primary transition-colors">
+          <Link href="/HDGBot-pp" className="text-sm font-semibold text-gray-600 hover:text-primary transition-colors">
             Privacy Policy
           </Link>
         </div>
